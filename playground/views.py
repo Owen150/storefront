@@ -7,4 +7,4 @@ from django.http import HttpResponse
 # Request Handler
 
 def say_hello(request):
-    return HttpResponse('Hello World')
+    return render(request, 'hello.html')
